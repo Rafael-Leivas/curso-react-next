@@ -55,7 +55,7 @@ export const Home = () => {
       </div>
 
       {filteredPosts.length > 0 && <Posts posts={filteredPosts} />}
-      {filteredPosts.length === 0 && <p>Não existem posts =(</p>}
+      {filteredPosts.length === 0 && <p>Não tem mais posts =(</p>}
       <div className="button-container">
         {!searchValue && (
           <Button
